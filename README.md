@@ -1,12 +1,20 @@
 # Yung + Vite + Typescript + Vue 3
 
-vue3 多入口（多页面）开发模版，使用[Yung](https://github.com/maYunLaoXi/yung)构建，vue3 + Typescript开发。
+vue3 多入口（多页面）开发模版，使用[Yung](https://github.com/maYunLaoXi/yung)构建，vue3 + Typescript开发。
 
 [Yung](https://github.com/maYunLaoXi/yung): 是对vite@2.4.3的封装，实际是vite进行构建，支持vite所有配置。
 
 > 注： 有关vite的配置请写在项目根目录的`vite.config.ts`文件内。
 
 ## 使用
+
+### 克隆到本地
+```
+git clone https://github.com/maYunLaoXi/yung-vue3-starter.git
+``` 
+
+### 可以全局或本地安装yung
+
 
 ```
 npm install yung -g           # 全局
@@ -59,6 +67,7 @@ yung preview page             # 预览页面page
 ```
 
 > 注： 如需在构建生产前进行typescript的类型检查，可先执行`tsc --noEmit`或使用`vue-tsc`。see: [https://vitejs.bootcss.com/guide/features.html#npm-dependency-resolving-and-pre-bundling](https://vitejs.bootcss.com/guide/features.html#npm-dependency-resolving-and-pre-bundling)
+
 ## TODO
 
 * 构建生产代码时可以转入多个页面
